@@ -1,9 +1,9 @@
 **Pre-requisties**
 
-Nodejs
-JDK
+1. Nodejs
+2. JDK
 
 **Copy the master repo and then in root directory run the below cmds**
  
-npm run setup
-npm run test
+1. npm run setup
+2. npm run test
