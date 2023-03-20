@@ -1,0 +1,22 @@
+{
+  "name": "protractor-framework-natty",
+  "version": "1.0.0",
+  "description": "Protractor framework Natty",
+  "main": "conf.js",
+  "author": "Natchiar",
+  "license": "ISC",
+
+  "scripts": {
+    "setup": "npm install && webdriver-manager update",
+    "test": "protractor conf.js"
+  },
+ 
+  "dependencies": {
+    "protractor": "^7.0.0",
+    "webdriver-manager": "^12.1.9",
+    "protractor-jasmine2-html-reporter": "^0.0.7",
+    "jasmine-allure-reporter": "^1.0.2",
+    "jasmine-spec-reporter": "^7.0.0"
+  },
+  "repository": "https://github.com/Natch-123/Protractor-Framework.git"
+}

@@ -1,0 +1,22 @@
+{
+    "baseUrl":"https://surveyrc.taxcreditco.com/automation-challenge/",
+    "users": [
+      {
+        "fname": "Natty",
+        "lname": "Ben",
+        "email": "natben@hotmail.com",
+        "streetAddress": "10703 Main St",
+        "city": "Bellevue",
+        "zip": "98004"
+      },
+      {
+        "fname": "John",
+        "lname": "Kenith",
+        "email": "JohnKeni@yahoo.com",
+        "streetAddress": "9001 MERIDIAN AVE N",
+        "city": "Seattle",
+        "zip": "98101"
+      }
+    ]
+  }
+  
