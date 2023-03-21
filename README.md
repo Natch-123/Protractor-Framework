@@ -1,4 +1,4 @@
-**Pre-requisties**
+**Pre-requisties - To be already installed in machine**
 1. Nodejs
 2. JDK
 
