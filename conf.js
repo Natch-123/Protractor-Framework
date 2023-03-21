@@ -10,9 +10,7 @@ exports.config = {
     shardTestFiles: true,
     maxInstances: 1,
     browserName: 'chrome',
-    // trustAllSSLCertificates: true,
-    // acceptInsecureCerts: true,
-    // ACCEPT_SSL_CERTS: true,
+    acceptInsecureCerts: true,
     chromeOptions: {
       excludeSwitches: ['enable-logging']
     }
