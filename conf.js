@@ -1,6 +1,6 @@
 // conf.js
-const Jasmine2HtmlReporter = require('protractor-jasmine2-html-reporter');
-const SpecReporter = require('jasmine-spec-reporter').SpecReporter;
+const jasmine2HtmlReporter = require('protractor-jasmine2-html-reporter');
+const specReporter = require('jasmine-spec-reporter').SpecReporter;
 
 exports.config = {
   directConnect: true,
@@ -23,7 +23,7 @@ exports.config = {
     browser.ignoreSynchronization = true;
 
     jasmine.getEnv().addReporter(
-      new Jasmine2HtmlReporter({
+      new jasmine2HtmlReporter({
         savePath: './reports',
         cleanDestination: false,
         takeScreenshots: true,
@@ -31,7 +31,7 @@ exports.config = {
         fileNameDateSuffix: true,
         consolidateAll: true
       }));
-    jasmine.getEnv().addReporter(new SpecReporter({
+    jasmine.getEnv().addReporter(new specReporter({
       spec: {
         displayStacktrace: 'raw'
       },
@@ -39,7 +39,6 @@ exports.config = {
         displayDuration: false
       }
     }));
-
   },
 
   jasmineNodeOpts: {
